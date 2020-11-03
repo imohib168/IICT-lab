@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab Assignmet: 01</title>
+</head>
+
+<body>
+    <dl>
+        <dt> <u>Products:</u> </dt>
+        <dd>
+            <ul style="list-style-type: upper-alpha;">
+                <li> <mark> <u>Fresh Produce: </u> </mark> </li>
+                <ul style="list-style-type: disc;">
+                    <li>Blueberry</li>
+                    <li>Capsicum</li>
+                    <li>Fenugreek</li>
+                    <li>Cilantro</li>
+                </ul>
+                <li> <mark> <u>Snack Foods: </u> </mark> </li>
+                <ul style="list-style-type: lower-roman;">
+                    <li> <u> <strong>Choco</strong> </u> </li>
+                    <ul>
+                        <li>Crepe Choclate wafers</li>
+                        <li>Cadbury Dairy Milk</li>
+                        <li>Crunchy Oats & Honey Bar</li>
+                        <li>Kitkat Crunchy</li>
+                    </ul>
+                    <li> <u> <strong>Snake</strong> </u> </li>
+                    <ul type="circle">
+                        <li>Cheez-it</li>
+                        <li>Doritos</li>
+                        <li>Popcorn</li>
+                    </ul>
+                </ul>
+            </ul>
+        </dd>
+    </dl>
+</body>
+
+</html>

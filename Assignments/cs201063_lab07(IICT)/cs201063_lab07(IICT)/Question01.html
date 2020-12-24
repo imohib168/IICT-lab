@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Question: 01</title>
+    <link rel="stylesheet" type="text/css" href="styleQ1.css" />
+
+    <script>
+        function chnageImage(image) {
+            document.getElementById("img").src = image;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="Images/pic01.jfif" alt="Nature" id="img">
+            <div class="buttons">
+                <button onclick="chnageImage('Images/pic01.jfif')">
+                    Default
+                </button>
+                <button onclick="chnageImage('Images/pic02.jfif')">
+                    Change
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

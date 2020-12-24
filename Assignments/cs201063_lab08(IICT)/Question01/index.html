@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function Calculate() {
+            var num1 = document.form.Number1.value;
+            var num2 = document.form.Number2.value;
+            var radioValue = document.form.cal.value;
+
+            if (radioValue == '+') {
+                alert((+num1) + (+num2));
+            } else if (radioValue == '-') {
+                alert(num1 - num2);
+            } else if (radioValue == '*') {
+                alert(num1 * num2);
+            } else if (radioValue == '/') {
+                alert(num1 / num2);
+            }
+        }
+
+        function Clear() {
+            var n1 = document.form.Number1.value = "";
+            var n2 = document.form.Number2.value = "";
+        }
+    </script>
+</head>
+
+<body>
+    <form name="form" class="form">
+        <label>Number 01</label>
+        <input type="text" name="Number1">
+        <label>Number 01</label>
+        <input type="text" name="Number2">
+
+        <input type="radio" name="cal" value="+" /> Sum <br>
+        <input type="radio" name="cal" value="-" /> Difference <br>
+        <input type="radio" name="cal" value="*" /> Product <br>
+        <input type="radio" name="cal" value="/" /> Quotient <br>
+
+        <button type="button" onClick="Calculate()">Calculate</button>
+        <button type="button" onClick="Clear()">Clear</button>
+    </form>
+</body>
+
+</html>

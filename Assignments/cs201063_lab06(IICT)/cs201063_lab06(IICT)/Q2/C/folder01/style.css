@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.header {
+	background-color: rgb(95, 178, 238);
+	color: black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.nav {
+	margin-top: -10px;
+	background-color: #56CBF9;
+	text-align: center;
+	padding: 4px;
+}
+
+.nav span {
+	margin: 0px 30px;
+	font-size: 18px;
+}
+
+.main-container {
+	height: 300px;
+}
+
+.container-1 {
+	background-color: rgb(138, 161, 190);
+	color: black;
+	text-align: center;
+	float: left;
+	width: 30%;
+	height: 300px;
+	overflow: scroll;
+}
+
+.container-1 div img {
+	height: 160px;
+	border: 3px solid black;
+	margin: 10px 0px;
+}
+
+.container-2 {
+	background-color: rgb(3, 140, 182);
+	color: white;
+	text-align: center;
+	width: 70%;
+	height: 300px;
+	overflow: scroll;
+}
+
+.container-2 p {
+	margin: 20px 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function SquareOfNumer() {
+            var num = document.form.Number.value;
+            if (num == "") {
+                alert("Please Enter the value...");
+            } else {
+                document.getElementById("demo").innerHTML = "Square of " + num + " is '" + num * num + "'";
+            }
+        }
+
+        function CubeOfNumer() {
+            var num = document.form.Number.value;
+            if (num == "") {
+                alert("Please Enter the value...");
+            } else {
+                document.getElementById("demo").innerHTML = "Cube of " + num + " is '" + num * num * num + "'";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <form name="form" class="form">
+        <input type="text" name="Number">
+        <button type="button" onclick="SquareOfNumer()">Click here to get the Square of a Number</button>
+        <button type="button" onclick="CubeOfNumer()">Click here to get the Cube of a Number</button>
+    </form>
+
+    <div id="demo"></div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Input & Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>Input & Events</div>
+        <div>
+            <div> <input type="color" id="inputColor"> </div>
+            <button onClick="changeBgColor()">Change Background Color</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="cover_image">
+            <img onMouseover="src='./images/water.jfif'" onMouseout="src='./images/nature.jfif'"
+                src="./images/nature.jfif" alt="Nature Cover Image">
+        </section>
+        <section class="form">
+            <form>
+                <h3>Contact Form</h3>
+                <label for="email">Email</label>
+                <input onfocus="focusEmail()" type="email" id="email">
+
+                <label for="tel">Contact Number</label>
+                <input onfocus="focusContact()" type="tel" id="tel">
+
+                <label for="date">Date</label>
+                <input onfocus="focusDate()" type="date" id="date">
+
+                <input onmouseup="showInputValues()" type="button" value="Submit">
+            </form>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

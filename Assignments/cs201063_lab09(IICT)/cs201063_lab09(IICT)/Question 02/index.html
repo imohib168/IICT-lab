@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <!-- Css File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form class="form">
+            <h2>Signup Form</h2>
+            <label for="username">Username</label>
+            <input type="text" id="username">
+
+            <label for="password">Password</label>
+            <input type="password" id="password">
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword">
+
+            <button type="button" onClick="checkPass()">Submit</button>
+        </form>
+
+        <section id="detail">
+            <!-- Username: Mohib <br>
+            Username: Mohib <br>
+            Username: Mohib <br> -->
+        </section>
+    </main>
+
+    <script>
+        function checkPass() {
+            var username = document.getElementById("username");
+            var password = document.getElementById("password");
+            var confirmPassword = document.getElementById("confirmPassword");
+            var detail = document.getElementById("detail");
+
+            if (username.value == "") {
+                alert("Kindly enter your Username.! ");
+            } if (password.value == "") {
+                alert("Kindly enter your password.!");
+            } if (confirmPassword.value == "") {
+                alert("Kindly enter your password again.! ");
+            } if (password.value !== confirmPassword.value) {
+                alert("Password doesn't match.!")
+            } else {
+                var dob = prompt("Enter you Date of Birth: ");
+                console.log(dob);
+                detail.innerHTML = "<h3> Username: </h3>" + username.value + "<br>" + "<h3> Password: </h3>" + password.value + "<br>" + "<h3> Date of Birth: </h3>" + dob;
+                detail.innerHTML = `
+                        <h3 class="head-3">
+                            Username: <span class="values"> ${username.value} </span> <br>
+                            Password: <span class="values"> ${password.value} </span> <br>
+                            Date of Birth: <span class="values"> ${dob} </span> <br>
+                        </h3>
+                    `
+            }
+
+            // username.value = "";
+            // password.value = "";
+            // confirmPassword.value = "";
+
+        }
+    </script>
+</body>
+
+</html>

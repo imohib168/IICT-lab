@@ -1,0 +1,18 @@
+As we know, there are very few in-demand websites out there that offer online services to deliver various products in Pakistan. For the most part, we refer to these websites as E-commerce websites.
+
+Since there are very few websites out there, we are going to build an E-commerce website that has become very advantageous nowadays due to COVID. Most people prefer to buy products online by visiting different E-commerce websites.
+
+Our services comprise the following:
+1) Book store.
+2) Gadgets(Include: 1) Mobile AccessoriesSmart 2)Items 3) Computer Accessories).
+3) Electronic Appliances.
+4) Arts and Crafts.
+5) Food Stuff.
+8) kids Fun.
+9) Men's/Women's Fashion.
+10) Grocery Items.
+
+
+
+SHopster
+One-stop for head to toe look

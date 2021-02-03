@@ -1,0 +1,6 @@
+In case if the video in the folder failed to play...
+Project Presentation (Google Drive Link): https://drive.google.com/drive/folders/1ssU5SmpRmscVC48ncs6d8yXQZxetS3qc?usp=sharing
+
+Website Hosting:
+
+	shopster-168.netlify.app

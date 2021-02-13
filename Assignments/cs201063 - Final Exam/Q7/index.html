@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h2>Registration Form</h2>
+        </div>
+        <form class="form">
+            <label>Name</label>
+            <input type="text" name="FirstName" id="fname" placeholder="First Name">
+            <input type="text" name="LastName" id="lname" placeholder="Last Name">
+
+            <br>
+            <br>
+
+            <label>Password</label>
+            <input type="password" name="Password" id="pass" placeholder="password">
+
+            <br>
+            <br>
+
+            <label>Phone</label>
+            <input type="number" name="code" id="code" placeholder="code">
+            <input type="number" name="Contact" id="num" placeholder="Number">
+
+            <br>
+            <br>
+
+            <label>Area of Research</label>
+            <select id="research" onclick="ImageShow()">
+                <option value="select" selected>select</option>
+                <option value="IP">Image Processing</option>
+                <option value="ML">Machine learning</option>
+                <option value="DL">Deep Learning</option>
+            </select>
+
+            <br>
+            <br>
+
+            <div id="showImg">
+                <img id="img" src="" alt="">
+            </div>
+
+            <br>
+            <br>
+
+            <button onclick="checker()" type="button">REGISTER</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
